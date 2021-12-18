@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content:space-between;
+    background-color:cadetblue;
+    align-items: center;
+    color:cornsilk;
+    font-size: 1.25em;
+    padding: 0 0.5em;
+}
+
+.nav-title {
+    display: flex;
+    margin: 10px;
+}
+
+.nav-items {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 0.5em;
+}
+
+.nav-item:hover {
+    background-color: #bbb;
+}
+
+.nav-item a{
+    color: inherit;
+    text-decoration: none;
+}

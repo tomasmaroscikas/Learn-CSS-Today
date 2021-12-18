@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: 100px 100px; */
+}
+
+.item1 {
+    background-color: crimson;
+    grid-column: 1;
+    width: 300px;
+}
+
+.item2 {
+    background-color: darkblue;
+    grid-column: 2;
+}
+
+.item3 {
+    background-color: darkgreen;
+    grid-column: 3;
+}

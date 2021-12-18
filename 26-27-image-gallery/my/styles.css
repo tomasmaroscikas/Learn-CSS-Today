@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    background-color:darkslategray;
+    grid-auto-flow: dense; /* avoid gaps */
+    grid-auto-rows: 200px; /* make even height */
+    align-items: stretch;  /* stretch those that are lower up till 200px */
+}
+
+.grid-container img {
+    border: 1px solid white;
+    max-width: 100%; /* limit width up to 200px */
+}
+
+.wide {
+    grid-column: span 2;
+}
+
+.tall {
+    grid-row: span 2;
+}

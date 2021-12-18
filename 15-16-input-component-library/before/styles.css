@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 0.25em;
+    outline: none;
+}
+
+.large {
+    font-size: 1.25em;
+}
+
+.small {
+    font-size: 0.75em;
+}
+
+.success {
+    border-color: green;
+}
+
+.error {
+    border-color: red;
+}
+
+input:hover,
+input:focus {
+    border: 2px solid #6a6ac0;
+    box-shadow: 0 0 5px 0 #6a6ac0;
+}
